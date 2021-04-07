@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:isee/intro.dart';
 import 'package:isee/splashscreen.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Splashscreen()
+      home: IntroScreen()
     );
   }
 }
