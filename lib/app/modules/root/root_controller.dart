@@ -22,7 +22,7 @@ class RootController extends GetxController {
     OnboardingStatus _onBoardingStatus = _onboardingController.onboardingStatus.value;
 
     if (_onBoardingStatus == OnboardingStatus.unknown && session == null) {
-      return AppRoutes.ONBOARDING;
+      return AppRoutes.SPLASH;
     } else if (session != null) {
       return AppRoutes.HOME;
     }
