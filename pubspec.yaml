@@ -25,6 +25,12 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   intro_slider: ^2.3.4
+  get: ^3.24.0
+  dio: ^3.0.10
+  json_serializable: ^3.5.1
+  flutter_secure_storage: ^3.3.3
+
+
 
 dev_dependencies:
   flutter_test:
